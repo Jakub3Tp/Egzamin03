@@ -1,9 +1,16 @@
 import random
 
-
 def rzut_koscmi(ile_koscy):
     wyniki = [random.randint(1, 6) for _ in range(ile_koscy)]
     return wyniki
+
+#************************************************
+#nazwa: punkty
+#opis: Metoda służy do zliczania wylosowanych powtarzajązych się par oczek do punktacji
+#parametry: wyniki (zliczane są wszystkie otrzymane oczka, bu później sprawdzić które się powtarzają)
+#zwracany: punkty
+#autor: 00000000
+#************************************************
 
 def punkty(wyniki):
     punkty = 0
